@@ -1,0 +1,21 @@
+# Build outputs
+**/bin/
+**/obj/
+github-release/
+*.log
+
+# Local IDE state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Python checks
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# OS metadata
+.DS_Store
+Thumbs.db

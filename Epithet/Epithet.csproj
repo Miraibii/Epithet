@@ -1,0 +1,21 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Version>1.0.0.2</Version>
+    <Author>Miraibii</Author>
+    <Name>Epithet</Name>
+    <Punchline>Independent custom title studio for FFXIV.</Punchline>
+    <Description>Independent FFXIV title studio with experimental Honorific-compatible IPC for external sync services, 1-3 color gradients, outlines, effects, profiles and its own Epithet IPC API. Pairing is managed by the external sync service.</Description>
+    <Tags>title;nameplate;roleplay;community;customization</Tags>
+    <Platforms>x64</Platforms>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\*.png" LogicalName="Epithet.Assets.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

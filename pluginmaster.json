@@ -1,0 +1,25 @@
+[
+  {
+    "Author": "Miraibii",
+    "Name": "Epithet",
+    "InternalName": "Epithet",
+    "AssemblyVersion": "1.0.0.2",
+    "Description": "Custom FFXIV titles with 1-3 color gradients and animations. Experimental Honorific-compatible IPC transport; multiplayer delivery and effects require compatible sync services and two-client testing.",
+    "Punchline": "Create custom FFXIV titles with gradients and animation.",
+    "Tags": [
+      "customization",
+      "nameplate",
+      "roleplay",
+      "community"
+    ],
+    "RepoUrl": "https://github.com/Miraibii/Epithet",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/Miraibii/Epithet/releases/download/Epithet/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/Miraibii/Epithet/releases/download/Epithet/latest.zip",
+    "LastUpdate": 1792709640,
+    "Changelog": "Test build 1.0.0.2: A/B switch for strict legacy Honorific vs Epithet-extended IPC JSON, raw receiving counters, getter fingerprint and local transport self-check. Multiplayer between two Epithet clients is still unverified."
+  }
+]

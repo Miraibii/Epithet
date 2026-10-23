@@ -1,0 +1,13 @@
+{
+  "Name": "Epithet",
+  "Author": "Miraibii",
+  "Punchline": "Independent custom FFXIV titles with draggable gradients and animated effects.",
+  "Description": "Custom FFXIV title editor with 1-3 colors, animations, and experimental Honorific-compatible IPC. Includes a local-only receiver probe to distinguish renderer failures from unconfirmed external network delivery.",
+  "Tags": [
+    "customization",
+    "nameplate",
+    "roleplay",
+    "community"
+  ],
+  "AssemblyVersion": "1.0.0.2"
+}
